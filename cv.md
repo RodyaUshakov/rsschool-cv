@@ -26,4 +26,4 @@
 * **Work experience:** Freelance work experience only(HTML+CSS)
 * **Secondary education**
 * **English language level:** A2
-![My-Photo](../rsschool-cv/photo.jpg "ITS ME")
+![My-Photo](rsschool-cv/photo.jpg "ITS ME")
