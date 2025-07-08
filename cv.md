@@ -1,14 +1,13 @@
 # About Me
-*********
-* My name is Rodion Ushakov.
-* Contact: 
-    + Telegram: @Rodya1
-    + Discord: _rodya
-* Goal: To become a full-fledged Frontend developer
-* Strengths: responsible, quick to learn, I always like something new.
-* Work experience: Freelance, I've been working for six months, I make small orders like change a button, add. For experience, I make templates for the GameCMS engine.
-* Programming languages: CSS and HTML
-* Sample code
+* My name is **Rodion Ushakov**.
+* **Contact:** 
+    + **Telegram:** @Rodya1
+    + **Discord:** _rodya
+* **Goal:** To become a full-fledged Frontend developer
+* **Strengths:** responsible, quick to learn, I always like something new.
+* **Work experience:** Freelance, I've been working for six months, I make small orders like change a button, add. For experience, I make templates for the GameCMS engine.
+* **Programming languages:** CSS and HTML
+* **Sample code:**
 ```
    <div class="profile_page_nav nav nav-tabs mt-2">
      {if(is_auth() && '{profile_id}' == $_SESSION['id'])}
@@ -24,6 +23,6 @@
         {/if}
     </div> 
 ```
-* Work experience: Freelance work experience only(HTML+CSS)
-* Secondary education
-* English language level: A2
+* **Work experience:** Freelance work experience only(HTML+CSS)
+* **Secondary education**
+* **English language level:** A2
