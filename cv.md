@@ -26,4 +26,5 @@
 * **Work experience:** Freelance work experience only(HTML+CSS)
 * **Secondary education**
 * **English language level:** A2
+## My Photo
 ![My-Photo](./photo.jpg "ITS ME")
