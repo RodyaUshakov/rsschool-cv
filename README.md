@@ -1,6 +1,2 @@
-# rsschool-cv
-## rs.school
-### RodyaUshakov
-
-My name is **Rodya**
-> TestFormat
+[LINK CV][https://rodyaushakov.github.io/rsschool-cv/cv]
+[rodyaushakov.github.io/rsschool-cv/cv][https://rodyaushakov.github.io/rsschool-cv/cv]
