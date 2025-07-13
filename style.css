@@ -1,7 +1,182 @@
-body{
-    background: black;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 
-body p{
-    color: yellow;
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+h1{ 
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+b{
+  font-weight: bolder;
+}
+
+span{
+  font-size: 16px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+body{
+    background: #1A1A1A;
+}
+
+.container {
+width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .container, header {
+    max-width: 1400px;
+  }
+}
+
+header{
+    background: linear-gradient(90deg, rgba(89, 57, 156, 0.95), rgba(105, 75, 201, 0.95)), url(img/backs.png);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 10px 15px 20px;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    gap: 10px;
+}
+
+.nav-menu li{
+    font-size: 18px;
+}
+
+main{
+    background: #232323;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 10px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+section h2{ 
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+section > span > b{ 
+  text-transform: uppercase;
+}
+
+pre{
+    background: #1a1a1a;
+    padding: 1em;
+    overflow: auto;
+    font-size: 100%;
+    line-height: 1.45;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(89, 57, 156, 0.95), rgba(105, 75, 201, 0.95)), url(img/backs.png);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 10px 15px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.github-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mobile */
+@media (max-width: 991.99px){
+    .nav-menu{
+        display: none;
+    }
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .about img{
+    width: 100%;
+    }
 }
