@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">RodyaUshakov</div>
+                <ul class="nav-menu">
+                    <li>
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#code">Sample Code</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#lang">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about" class="about">
+                <h1>Hello! Im Rodion Ushakov</h1>
+                <span><b>Goal:</b> To become a full-fledged Frontend developer</span>
+                <span><b>Strengths:</b> responsible, quick to learn, I always like something new</span>
+                <img src="img/photo.jpg" alt="my photo">
+                <h2>My Education</h2>
+                <span>Secondary education</span>
+            </section>
+            <section id="contacts" class="contacts">
+                <h2>My Contacts</h2>
+                <span><b>TELEGRAM:</b> @Rodya1</span>
+                <span><b>DISCORD:</b> _rodya</span>
+            </section>
+            <section id="experience" class="experience">
+                <h2>Experience</h2>
+                <span><b>Work experience:</b> Freelance, I've been working for six months, I make small orders like
+                    change a
+                    button, add. For experience, I make templates for the GameCMS engine.</span>
+                <span><b>Programming languages:</b> CSS and HTML</span>
+            </section>
+            <section id="code" class="code">
+                <h2>Sample Code</h2>
+                <pre>
+                    <code>
+                        &lt;div class="profile_page_nav nav nav-tabs mt-2"&gt;
+                            {if(is_auth() &amp;&amp; '{profile_id}' == $_SESSION['id'])}
+                                &lt;a href="../profile?id={{$user-&gt;id}}" class="profile_btn active"&gt;Профиль&lt;/a&gt;
+                                &lt;a class="profile_btn" href="../purse"&gt;Кошелек&lt;/a&gt;
+                                &lt;a class="profile_btn" href="../my_stores"&gt;Привилегии&lt;/a&gt;
+                                &lt;a class="profile_btn" href="../friends"&gt;Друзья&lt;/a&gt;
+                                &lt;a class="profile_btn" href="../messages"&gt;Сообщения&lt;/a&gt;
+                                &lt;a class="profile_btn" href="../notifications"&gt;Уведомления&lt;/a&gt;
+                            {else}
+                                &lt;a class="profile_btn" data-toggle="tab" href="#friends"&gt;Друзья&lt;/a&gt;
+                                &lt;a class="profile_btn" data-toggle="tab" href="#stores"&gt;Привилегии&lt;/a&gt;
+                            {/if}
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </section>
+            <section id="lang" class="lang">
+                <h2>Languages</h2>
+                <span>English(B1)</span>
+                <span>Russian(native)</span>
+            </section>
+        </main>
+        <footer>
+            <a class="github-icon" href="https://github.com/RodyaUshakov" target="_blank"><img width="16"
+                    src="img/github-icon.svg" alt="Github icon">
+                <span>Github</span>
+            </a>
+            <h2>July 2025</h2>
+            <a class="rs-icon" href="https://rs.school/courses/javascript-ru" target="_blank"><img width="100"
+                    src="img/rs-school-logo.svg" alt="RS School icon">
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
